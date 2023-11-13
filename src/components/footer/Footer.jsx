@@ -1,10 +1,6 @@
 import React from "react";
-import {
-    FaFacebookF,
-    FaInstagram,
-    FaTwitter,
-    FaLinkedin,
-} from "react-icons/fa";
+import { FaInstagram, FaLinkedin } from 'react-icons/fa';
+
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 
@@ -22,26 +18,16 @@ const Footer = () => {
                     <li className="menuItem">FAQ</li>
                 </ul>
                 <div className="infoText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                     Hi , I am Ravi Kumar Rana , I am a fourth-year computer science student at Chandigarh University with a
+                     zeal of producing robust code having a strong foundation in software development.
                 </div>
                 <div className="socialIcons">
-                    <span className="icon">
-                        <FaFacebookF />
-                    </span>
-                    <span className="icon">
+                    <a href="https://www.instagram.com/_.rvi_/" target="_blank"><span className="icon">
                         <FaInstagram />
-                    </span>
-                    <span className="icon">
-                        <FaTwitter />
-                    </span>
-                    <span className="icon">
-                        <FaLinkedin />
-                    </span>
+                    </span></a>
+                    
+                    <a href="https://www.linkedin.com/in/ravi-kumar-rana-710934159/" target="_blank"><span className="icon"> <FaLinkedin /> </span></a>
+                     
                 </div>
             </ContentWrapper>
         </footer>
